@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>roland.</title>
+
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    var Name = prompt("what should I call you?");
+
+    if(Name == "" || Name == null) {
+    alert("please enter your name.");
+    } else {
+    alert("Hi " + Name + ", always remember you're special."); 
+    alert("you are one of a kind!")
+    alert("pleaseee stay with me")
+    alert("i love youuu so muchhh babyyy akiðŸ˜˜ðŸ˜˜ðŸ˜˜")
+    }
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=400
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=166
+            flag=4
+        }
+     else if(flag==4)
+        {
+            Bn.style.top=460
+            Bn.style.left=100
+            flag=5
+        }
+     else if(flag==5)
+        {
+            Bn.style.top=530
+            Bn.style.left=190
+            flag=1
+          }
+}
+</script>
+
+</head>
+<body>
+<h1> I Love Youuuu Tanyaaa</h1>
+<img src="https://c.tenor.com/sZPWbZj_QI8AAAAi/kakaotalk-emoticon.gif" height="200" />
+<h1 style="#">do you love me too?</h1>
+<div id="By" style="position:absolute; left:64px; top:370px; width:210px;
+height:210px;">
+<input type="button" value=" YES " onClick="f1()" />
+</div>
+<div ID="Bn" style="position:absolute; left:166px; top:370px; width:210px; height:210px;">
+<input type="button" value=" NO " onMouseOver="f()" />
+</div>
+
+</body>
+</html>
